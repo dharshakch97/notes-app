@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sidebar {
+  	position: relative;
+  	top: 0;
+  	left: 0;
+  	width: 300px;
+  	height: 100%;
+  	overflow-x: hidden;
+}
+
+.icon-btn {
+  	cursor: pointer;
+  	transition: "color .2s ease-in-out";
+}
+
+.add-btn:hover {
+  	color: #15803D
+}
+
+
+.note-card {
+  	cursor: pointer;
+  	transition: "background-color .3s ease-in-out"
+}
+
+.note-card:hover {
+  	background-color: #E5E5E5;
+}
+
+.selected {
+  	color: #fff;
+  	background-color: #1E40AF;
+}
+
+.home {
+	display: flex;
+	flex-direction: row;
+}
+
+.side-home {
+	display: flex;
+	flex-direction: column;
+	margin-top: 75px;
+}
+
+.content {
+	margin-top: 0px;
+}
